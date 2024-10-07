@@ -11,18 +11,20 @@
    1. `/challenge/run`
    ### got hint that in order to run the program i need to be in /etc/apt/sources.list.d directory
    2 `cd /etc/apt/sources.list.d`
-   3.`/challenge/run'
+   
+   3.`/challenge/run`
 
    ## position elsewhere
    1. `/challenge/run`
    ### got hint that in order to run the program i need to be in  /proc/84 directory
    2. ` cd /proc/84 `
-   3. `/challenge/run'
+   3. `/challenge/run`
     
    ## position yet elsewhere
    1. `/challenge/run`
    ### got hint that in order to run the program i need to be in  /var directory
    2.`cd /var`
+   
    3. `/challenge/run`
 
    ## implicit relative paths, from /
@@ -45,4 +47,4 @@
    ### we are supposed to write an argument with /challenge/run
    ### should be under constraints as per question
    ### the argument should be an absolute path in home with less than 3 characters
-   1.`/challenge/run ~/n
+   1.`/challenge/run ~/n `
