@@ -2,7 +2,7 @@
 
  ## learning from properties
  ### we need to run /challenge/challenge with --giveflag argument
- 1. `/challenge/challenge --giveflag
+ 1. `/challenge/challenge --giveflag`
 
  ## learning complex usage
  ### we need to find the path of flag and print it using --printfile argument of /challenge/challenge program
