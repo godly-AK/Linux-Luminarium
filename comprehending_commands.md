@@ -65,6 +65,7 @@
  ### we have cannot edit /flag and /challenge/catflag
  ### thus we will remove the not-the-flag file as it is symlink to /challenge/catflag
  ### then link /flag with /not-the-flag and the run /challenge/catflag leading to opening /flag file
+ ### *asked mentor for hint*
  1.`rm not-the-flag`
  2. `ln -s ~/flag ~/not-the-flag`
  3. `/challenge/catflag`
