@@ -17,8 +17,8 @@
 ### we need to use change directory to /challenge/files
 ### we need to use 'file_[bash]' as we need the bracket glob files_b, files_a, files_s,files_h
 ### we need to run the above argument with /challenge/run program
-1.`cd /challenge/files`
-2.`/challenge/run files_[bash]`
+1. `cd /challenge/files`
+2. `/challenge/run files_[bash]`
 
 ## matching paths with []
 ### we need to do like the previous ques but without changing cwd
