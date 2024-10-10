@@ -44,7 +44,30 @@
 
 ## an epic filesystem quest
 ### we need to use cat , ls and cd comd repeatedly to find chain of clues leading to flag
-
+ 1.` ls /`
+ 2. `cat /REVELATION`
+ 3. `cd /opt/linux/linux-5.4/drivers/gpu/drm/amd/include/asic_reg/clk`
+ 4. `ls`
+ 5. `cat ALERT`
+ 6. `cd /opt/linux/linux-5.4/drivers/android`
+ 7. `ls`
+ 8. `cat DOSSIER`
+ 9. `ls  /usr/lib/python3/dist-packages/sympy/stats/tests`
+10. `cat /usr/lib/python3/dist-packages/sympy/stats/tests/HINT-TRAPPED`
+11. `cd  /opt/linux/linux-5.4/include/config/oid`
+12. `ls -a`
+13. `cat .TIP`
+14. `cd  /opt/ghidra/Extensions/IDAPro`
+15. `ls -a`
+16. `cat .CLUE`
+17. `ls  /opt/linux/linux-5.4/drivers/staging/unisys/visornic`
+18. `cat  /opt/linux/linux-5.4/drivers/staging/unisys/visornic/INFO-TRAPPED`
+19.`cd /opt/ghidra/Ghidra/Features/GhidraServer/data/yajsw-stable-13.09/lib/core/yajsw`
+20. `ls`
+21. `cat SNIPPET`
+22. `cd /usr/share/javascript/mathjax/unpacked/jax/output/SVG/fonts/STIX-Web/Latin/Italic
+23. `ls`
+24. `cat CUE`
 ## making directories
 ### we need to create 'pwn' directory in /tmp using mkdir cmd and then create college file in /tmp/pwn using touch cmd
 ### then run /challenge/run to get flag
