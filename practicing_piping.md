@@ -21,7 +21,7 @@
  ### then we need to open myflag using cat 
  1. `/challenge/run > myflag 2> instructions`
  2. ` cat instructions `
- 2. `cat myflag`
+ 3. `cat myflag`
 
  ## redirecting input
  ### we need to give the value 'COLLEGE' to PWN
@@ -50,7 +50,7 @@
  ### piping /challenge/pwn to /challenge/college will not give us the flag as we are missig something
  ### so will use 'tee" to check output pwn program and store it in a file called 'info'
  ### upon reading the file we can see we need to use a secret argument with /challenge/pwn and then pipe it to /challenge/college to get the flag
- 1.`/challenge/pwn | tee info | /challenge/college`
+ 1. `/challenge/pwn | tee info | /challenge/college`
  2. `cat info`
  3. `/challenge/pwn --secret 03eyZPX8 | /challenge/college`
 
@@ -63,4 +63,4 @@
  ## split-piping stderr and stdout
  ### we cannot use | tee as it won't separate stderr and stdout
  ### we must use normal rediection that we learned in the beggining in this module
- 1.`/challenge/hack > >(/challenge/planet) 2> >(/challenge/the)'
+ 1.`/challenge/hack > >(/challenge/planet) 2> >(/challenge/the)`
