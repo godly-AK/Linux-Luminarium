@@ -44,7 +44,7 @@
 
 ## an epic filesystem quest
 ### we need to use cat , ls and cd comd repeatedly to find chain of clues leading to flag
- 1.` ls /` 
+ 1. `ls /` 
  2. `cat /REVELATION` 
  3. `cd /opt/linux/linux-5.4/drivers/gpu/drm/amd/include/asic_reg/clk` 
  4. `ls` 
