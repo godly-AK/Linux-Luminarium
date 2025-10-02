@@ -38,5 +38,6 @@
 ## multiple globs
 - basically what we need is every file name havin letter p
 - whihc mean the name of the file shoudl have p any where in the name
-- so prefix before letter p could be denoted by and suffix after letter p could be denoted by *
-- so the correct arg is *p*
+- so prefix before letter p could be denoted by * and suffix after letter p could be denoted by *
+- so the correct arg is \*p\*
+
